@@ -1,0 +1,75 @@
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    width: 100%;
+    background-image: url('images/astronomy.webp')
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: auto;
+    background-color: slategrey;
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+
+
+.profile {
+    display: flex;
+    width: fill;
+}
+
+.detail-1 {
+    display: flex;
+}
+
+.weather-container {
+    color: black;
+    text-align: center;
+    background-color: lightgrey;
+    width: 200px;
+    height: 400px;
+    border: 15px solid white;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 250px;
+    font-size: 24px;
+}
