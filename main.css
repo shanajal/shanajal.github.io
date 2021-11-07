@@ -54,7 +54,7 @@ a:hover {
 
 .profile {
     display: flex;
-    width: fill;
+    width: 100%;
 }
 
 .detail-1 {
